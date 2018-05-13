@@ -6,11 +6,9 @@ public class Game {
 	private static void createWindow() {
 		JFrame frame = new JFrame ("2D Chess");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		JLabel text = new JLabel ("Hello", SwingConstants.CENTER);
-		text.setPreferredSize(new Dimension(300, 100));
-		frame.getContentPane().add(text, BorderLayout.CENTER);
-		frame.setLocationRelativeTo(null);
+		frame.setPreferredSize(new Dimension(800, 800));
 		frame.pack();
+		frame.setLocationRelativeTo(null);
 		frame.setVisible(true);
 	}
 
